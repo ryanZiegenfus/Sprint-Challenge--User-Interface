@@ -127,8 +127,11 @@ p {
 }
 
 footer {
-    width: 100%;
+    display: flex;
+    width: 840px;
     background: black;
+    height: 60px;
+    margin: 0px auto;
 }
 
 footer nav {
@@ -143,4 +146,189 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* */
+* {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header img {
+    margin: 30px 0;
+}
+
+.header h1, .header p {
+    margin: 0px;
+    padding: 15px 0px 0px 15px;
+}
+
+#b a {
+    margin: 52px 0px;
+}
+nav a  {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 370px;
+    margin: 30px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.main p, .main h2 {
+    margin: 2.5px 0px;
+    padding: 10px 0px;
+}
+
+.main a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin: 0px 230px 0px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#a {
+    height: 120px;
+    width: 20%;
+}
+
+#b {
+    width: 80%;
+}
+
+#c {
+    height: 150px;
+    width: 100%;
+}
+
+#d {
+    height: 130px;
+    width: 100%;
+    border-bottom: 1px dashed black;
+}
+
+#i {
+    height: 150px;
+    width: 100%;
+}
+
+.text-container {
+    margin-top: 20px;
+}
+
+.middle-content {
+    width: 100%;
+}
+
+.box {
+    width: 12.5%;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background:gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background:hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background:dodgerblue;
+}
+
+
+@media screen and (max-width: 800px) { 
+    .container {
+        width: 500px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header nav {
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column
+    }
+
+    #b a {
+        margin: 20px 0px;
+    }
+
+    div {
+        width: 100%
+    }
+
+    .header p {
+        margin-bottom: 30px;
+    }
+
+    #c, #c img {
+        height: 100px;
+        width: 500px;
+    }
+
+    #d {
+        height: auto;
+    }
+}
+
+nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+.main a:hover
+{
+    color: white;
+    background: black;
 }
