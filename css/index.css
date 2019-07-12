@@ -232,7 +232,58 @@ nav a  {
 }
 
 #i {
-
   height: 150px;
   width: 100%;
+}
+
+.text-container {
+    margin-top: 20px;
+}
+
+.middle-content {
+    width: 100%;
+}
+
+.box {
+    width: 12.5%;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background:gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background:hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background:dodgerblue;
 }
